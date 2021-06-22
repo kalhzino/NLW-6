@@ -6,7 +6,7 @@ export function Button(){
         setCounter(counter +1);
     }
     return (
-        <button onClick={increment}>
+        <button className="button" onClick={increment}>
             {counter} 
         </button>
     )
